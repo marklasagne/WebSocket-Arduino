@@ -1,6 +1,6 @@
 ## WebSocket Example using JavaScript and Arduino 
 
-# To run the WebScoket server:
+# To run the WebSocket server:
 - inside the Server directory run `npm install`
 - once dependencies are installed run `npm run`
 - take note of the PORT that is open, I have 3001 hardcoded in this example
