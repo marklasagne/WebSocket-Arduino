@@ -8,7 +8,7 @@
 For more complicated servers look for chatroom examples (eg: https://karlhadwen.medium.com/node-js-websocket-tutorial-real-time-chat-room-using-multiple-clients-44a8e26a953e) 
 
 ### To run Arduino code:
-- change the arduino library per the instructions in (https://techtutorialsx.com/2017/11/03/esp32-arduino-websocket-server/)
+- change the arduino library per the instructions in (https://techtutorialsx.com/2017/11/03/esp32-arduino-websocket-server/ and https://techtutorialsx.com/2017/11/01/esp32-arduino-websocket-client/)
 - add your network name and pass to the code, you may want to use environment variables to hide any passwordsin production
 - change the local IP, and port under "webSocket.begin" (line 26)
 - the port will be whatever your server is exposing, and the local IP is your devices IP that runs the server
