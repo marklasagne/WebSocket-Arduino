@@ -12,7 +12,7 @@ For more complicated servers look for chatroom examples (eg: https://karlhadwen.
 - add your network name and pass to the code, you may want to use environment variables to hide any passwordsin production
 - change the local IP, and port under "webSocket.begin" (line 26)
 - the port will be whatever your server is exposing, and the local IP is your devices IP that runs the server
-- you can find this IP on windows by running ipconfig in windows command prompt
+- you can find this IP on windows by running `ipconfig` in windows command prompt or powershell 
 
 
 
