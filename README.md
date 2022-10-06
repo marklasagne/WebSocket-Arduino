@@ -2,7 +2,7 @@
 
 ### To run the WebSocket server:
 - inside the Server directory run `npm install`
-- once dependencies are installed run `npm run`
+- once dependencies are installed run `npm start`
 - take note of the PORT that is open, I have 3001 hardcoded in this example
 
 For more complicated servers look for chatroom examples (eg: https://karlhadwen.medium.com/node-js-websocket-tutorial-real-time-chat-room-using-multiple-clients-44a8e26a953e) 
