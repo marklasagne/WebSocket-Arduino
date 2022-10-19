@@ -23,7 +23,7 @@ void setup() {
   Serial.print("IP Address: "); Serial.println(WiFi.localIP());
 
   // server address, port, and URL path
-  webSocket.begin("10.0.0.9", 3001, "/");
+  webSocket.begin("LOCAL_DEVICE_IP", 3001, "/");
 
   // try ever 5000 again if connection has failed
   webSocket.setReconnectInterval(5000);
